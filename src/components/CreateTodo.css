@@ -1,0 +1,40 @@
+input {
+  height: 50px;
+  width: 30%;
+  background: transparent;
+  border: 1.5px solid;
+  border-radius: 25px;
+  display: flex;
+  padding-left: 15px;
+  margin: 4px;
+  font-size: 16px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+input:focus {
+  outline: none;
+}
+#add {
+  height: 59px;
+  width: 59px;
+}
+
+.Ccontainer {
+  /* border: 2px solid; */
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+button {
+  margin: 4px;
+  background-color: rgb(84, 235, 255);
+  height: 45px;
+  width: 8%;
+  border: 1.5px solid;
+  border-radius: 20px;
+}

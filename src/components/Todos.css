@@ -1,0 +1,35 @@
+#todo {
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 600;
+  height: 60px;
+  width: 90%;
+  background-color: rgba(141, 141, 141, 0.687);
+  margin-left: 45px;
+  margin-top: 4px;
+  border-radius: 15px;
+  transform: scale(1);
+  transition: transform 0.29s linear;
+}
+#todo:hover {
+  transform: scaleX(1.06) scaleY(1.06);
+  transition: transform 0.28s linear;
+  font-weight: 630;
+}
+
+#checkbox {
+  margin-left: 16px;
+  height: 30px;
+  width: 30px;
+}
+#titleT {
+  display: flex;
+  margin-left: 30px;
+  padding: 0px 0px 0px 0px;
+}
+#descriptionT {
+  margin-left: 40px;
+}
