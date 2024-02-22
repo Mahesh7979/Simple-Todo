@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo, Memo, useCallback } from "react";
 import "./App.css";
 import { CreateTodo } from "./components/CreateTodo";
-import { Todos } from "./components/todos";
+import { Todos } from "./components/Todos";
 import axios from "axios";
 // const apiUrl = process.env.REACT_APP_HITME;
 function App() {
